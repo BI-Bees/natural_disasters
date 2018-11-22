@@ -8,6 +8,10 @@ This repository will contain the following
   * Code we have made to visulize the result of data set
   * Querys we have used in database to get data
   
+## Notebook
+
+The result of the code we are running can be seen here [![Azure Notebooks](https://notebooks.azure.com/launch.png)](https://notebooks.azure.com/Yoyoung/libraries/NaturalDisasters)
+  
 ## Useful links
 This is the current links we have found useful
 * https://www.emdat.be
