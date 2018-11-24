@@ -1,4 +1,4 @@
-year,disaster type,disaster group,occurrence,Total deaths,Injured,Affected,Homeless,Total affected,Total damage ('000 US$)
+year,disaster_type,disaster_group,occurrence,Total_deaths,Injured,Affected,Homeless,Total_affected,Total_damage ('000 US$)
 1900,Storm,Natural,1,6000,,,,,30000
 1903,Flood,Natural,2,250,,,,,480000
 1903,Storm,Natural,1,98,,,,,

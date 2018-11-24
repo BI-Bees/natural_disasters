@@ -12,9 +12,10 @@ def visualize():
 def read_csv():
 	disaster_dict = {}
 	with open('disasters.csv') as csv_file:
-		line_reader = csv.reader(csv_file, delimiter=',')
+		line_reader = csv.DictReader(csv_file, delimiter=',')
 		for row in line_reader:
-			print(row)
+			disaster_dict = int(row['year'])
+	print(disaster_dict)
 	return disaster_dict
 
 if __name__ == '__main__':
