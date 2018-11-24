@@ -2,6 +2,7 @@ from flask import Flask
 from flask import request
 import csv
 import json
+import sys
 
 app = Flask(__name__)
 
@@ -13,7 +14,7 @@ def visualize():
 #Reading csv file and creates a list of dictionaries.
 def read_csv():
 	disaster_list = []
-	with open('disasters.csv') as csv_file:
+	with open(sys.argv[1]) as csv_file:
 		for row in csv.DictReader(csv_file, skipinitialspace=True):
 			disaster_list.append({key: value for key, value in row.items()})
 	disaster_list = empty_space_filler(disaster_list)
