@@ -18,7 +18,6 @@ def read_csv():
 		for row in csv.DictReader(csv_file, skipinitialspace=True):
 			disaster_list.append({key: value for key, value in row.items()})
 	disaster_list = empty_space_filler(disaster_list)
-	print(disaster_list)
 	return disaster_list
 
 #Filling all empty values in a given list of dictionaries
