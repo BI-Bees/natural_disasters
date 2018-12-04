@@ -12,9 +12,9 @@ def visualize():
 	return render_template('html_page.html', result_list=result_list)
 
 #Reading csv file and creates a list of dictionaries.
-def read_csv():
+def read_csv(custom_csv):
 	disaster_list = []
-	with open(sys.argv[1]) as csv_file:
+	with open(custom_csv) as csv_file:
 		for row in csv.DictReader(csv_file, skipinitialspace=True):
 			disaster_list.append({key: value for key, value in row.items()})
 	disaster_list = empty_space_filler(disaster_list)
