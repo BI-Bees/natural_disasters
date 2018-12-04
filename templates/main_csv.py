@@ -21,7 +21,7 @@ def update():
         'Total_damage'            : current["Total_damage ('000 US$)"]
     }
 
-slider = RangeSlider(title="Year", start=1985, end=2017, value=(0, 1), step=1, format="0,0")
+slider = RangeSlider(title="Year", start=1985, end=2017, value=(0, 1), step=1, format="0")
 slider.on_change('value', lambda attr, old, new: update())
 
 columns = [
