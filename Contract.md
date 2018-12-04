@@ -31,3 +31,32 @@ In the selectiv Business Intelligence we corporated with the Innovation and Entr
 ### Sources to data
 
 ### Aggrements
+This section is about what was agreed upon to be made and which tasks/assignents who were to do and how to contact each other in case something changed or the task were completed fast than antisipated 
+
+#### Task
+##### Developers
+- Search for data sets on specificed subject
+  
+- Create visulization for Business holde in form of
+    
+    - Histograms
+    - Graphs
+    - Bars
+    - Maps
+  
+- Set up website with visulazation
+
+##### Business holder
+- Find out specific what to search for
+- xxxx
+
+#### Tasks
+
+### Price
+| Description               |price in kr|amount|   total |
+|---------------------------|-----------|------|---------|
+|Working hours              |    400    |  60  |  24000  |
+|Search Querys              |  10.000   |   1  |  10000  |
+|Python File                |  10.000   |   1  |  10000  |
+|Sever set-up and mantanince|    3.500  |   1  |   3500  |
+|**Total**                  |           |      |**47500**|
