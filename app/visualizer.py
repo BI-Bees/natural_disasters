@@ -1,5 +1,6 @@
 from flask import Flask
 from flask import request
+import pandas as pd
 import csv
 import json
 import sys
@@ -25,6 +26,32 @@ def empty_space_filler(custom_list):
 	for dicts in custom_list:
 		dicts.update((key, 0) for key, value in dicts.items() if not value)
 	return custom_list
+
+def cleanForInt(csv, listString):
+    finalList = []
+    headers = []
+    
+    keys = csv[0].keys()
+    for key in keys:
+        try:
+            int(key)
+            pass     
+        except:
+            headers.append(key)
+            
+    for dic in csv:
+        for key, value in dic.items():
+            tempDict = ()
+            for head in range(len(headers)):
+                for head in headers:
+                    tempDict = tempDict + (dic.get(head),)
+                break
+            if key not in headers:
+                tempDict = tempDict + (key,value)
+                finalList.append(tempDict)
+    headers = headers + listString
+
+    return pd.DataFrame(finalList, columns=headers)
 
 if __name__ == '__main__':
 	read_csv()
