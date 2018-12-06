@@ -22,3 +22,7 @@ navbar-links:
     - Useful Links: "https://bi-bees.github.io/natural_disasters/Useful%20links"
     - Queries: "https://bi-bees.github.io/natural_disasters/Querys_emdat"
   Code: "https://github.com/BI-Bees/natural_disasters"
+
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
