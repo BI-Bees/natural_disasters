@@ -1,0 +1,8 @@
+version: '3'
+services:
+  bokeh-service:
+    image: "nd" 
+    container_name: Bokeh
+    command: bokeh serve --show natural_disasters/app/main_csv.py --allow-websocket-origin="*"
+    ports:
+     - "5000:5006"
