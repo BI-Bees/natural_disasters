@@ -1,11 +1,6 @@
 from flask import Flask, request, render_template, session, redirect, send_file
 import app.pygal_graph as pg
 import app.natural_disasters_graph as ndg
-import pandas as pd
-import pygal
-import sys
-import json
-sys.path.insert(0, 'src/')
 
 app = Flask(__name__)
 
