@@ -5,9 +5,7 @@ from bokeh.layouts import row, widgetbox
 from bokeh.models import ColumnDataSource, CustomJS
 from bokeh.models.widgets import RangeSlider, Button, DataTable, TableColumn, NumberFormatter
 from bokeh.io import curdoc
-import os
-cwd = os.getcwd()
-print(cwd)
+
 df = pd.read_csv("../CSV/disasters.csv")
 
 source = ColumnDataSource(data=dict())
