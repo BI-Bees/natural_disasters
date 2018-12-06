@@ -16,7 +16,9 @@ This repository will contain the following
 
 [Disaster Table](http://178.128.207.173:5006/main_csv)
 
-[Server](http://178.128.207.173:5006/)
+### Graphs
+
+[Server](http://178.128.207.173:5001/)
 
 ### Useful links
 [Useful Links](https://bi-bees.github.io/natural_disasters/Useful%20links)
