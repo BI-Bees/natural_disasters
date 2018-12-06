@@ -12,7 +12,7 @@ from bokeh.embed import components
 
 
 def createBar():
-    df = pd.read_csv("./CSV/disasters.csv")
+    df = pd.read_csv("natural_disaster/CSV/disasters.csv")
     df_sumed = df.groupby(['year']).sum()
 
     #output_file("../templates/bar_colors.html")
