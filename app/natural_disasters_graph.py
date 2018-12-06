@@ -7,26 +7,30 @@ from bokeh.plotting import figure
 from bokeh.transform import factor_cmap
 from bokeh.palettes import inferno, Spectral6
 from bokeh.layouts import row, widgetbox
+from bokeh.resources import CDN
+from bokeh.embed import components
 
-df = pd.read_csv("../CSV/disasters.csv")
-df_sumed = df.groupby(['year']).sum()
 
-output_file("../templates/bar_colors.html")
-result = list(zip(df_sumed.index, df_sumed.occurrence))
+def createBar():
+    df = pd.read_csv("natural_disaster/CSV/disasters.csv")
+    df_sumed = df.groupby(['year']).sum()
 
-years = list([str(val[0]) for val in result])
-occurrences = list([val[1] for val in result])
+    #output_file("../templates/bar_colors.html")
+    result = list(zip(df_sumed.index, df_sumed.occurrence))
 
-source = ColumnDataSource(data=dict(years=years, occurrences=occurrences, color=inferno(97)))
+    years = list([str(val[0]) for val in result])
+    occurrences = list([val[1] for val in result])
 
-p = figure(x_range=years, y_range=(0,40), plot_height=500, plot_width=1000, title="Natural Disasters",
-           toolbar_location=None, tools="")
+    source = ColumnDataSource(data=dict(years=years, occurrences=occurrences, color=inferno(97)))
 
-p.vbar(x='years', top='occurrences', width=0.5, color='color', source=source)
-p.xaxis.major_label_orientation = math.pi/2
+    p = figure(x_range=years, y_range=(0,40), plot_height=500, plot_width=1000, title="Natural Disasters", toolbar_location=None, tools="")
 
-label = LabelSet(x='years', y='occurrences', text='occurrences', level='glyph', text_font_size='0.8em', text_align='center', source=source, render_mode='canvas')
+    p.vbar(x='years', top='occurrences', width=0.5, color='color', source=source)
+    p.xaxis.major_label_orientation = math.pi/2
 
-p.xgrid.grid_line_color = None
-p.add_layout(label)
-show(p)
+    label = LabelSet(x='years', y='occurrences', text='occurrences', level='glyph', text_font_size='0.8em', text_align='center', source=source, render_mode='canvas')
+
+    p.xgrid.grid_line_color = None
+    p.add_layout(label)
+    script, div = components(p)
+    return (script, div)
