@@ -55,8 +55,6 @@ This section is about what was agreed upon to be made and which tasks/assignents
 ### Price
 | Description               |price in kr|amount|   total |
 |---------------------------|-----------|------|---------|
-|Working hours              |    400    |  60  |  24000  |
-|Search Querys              |  10.000   |   1  |  10000  |
-|Python File                |  10.000   |   1  |  10000  |
+|Working hours              |    600    |  60  |  36000  |
 |Sever set-up and mantanince|    3.500  |   1  |   3500  |
-|**Total**                  |           |      |**47500**|
+|**Total**                  |           |      |**39500**|
