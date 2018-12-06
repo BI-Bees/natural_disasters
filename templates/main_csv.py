@@ -21,7 +21,7 @@ def update():
         'Total_damage'            : current["Total_damage ('000 US$)"]
     }
 
-slider = RangeSlider(title="Year", start=1985, end=2017, value=(0, 1), step=1, format="0")
+slider = RangeSlider(title="Year", start=1985, end=2017, value=(1985, 2017), step=1, format="0")
 slider.on_change('value', lambda attr, old, new: update())
 
 columns = [
@@ -39,6 +39,6 @@ controls = widgetbox(slider)
 table = widgetbox(data_table)
 
 curdoc().add_root(row(controls, table))
-curdoc().title = "Export CSV"
+curdoc().title = "Disaster table"
 
 update()

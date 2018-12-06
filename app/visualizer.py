@@ -23,9 +23,15 @@ def read_csv(custom_csv):
 
 #Filling all empty values in a given list of dictionaries
 def empty_space_filler(custom_list):
-	for dicts in custom_list:
-		dicts.update((key, 0) for key, value in dicts.items() if not value)
-	return custom_list
+    for dicts in custom_list:
+        dicts.update((key, 0) for key, value in dicts.items() if not value)
+        for key, value in dicts.items():
+            try:
+                temp_value = int(value)
+                dicts[key] = temp_value
+            except Exception as e:
+                pass
+    return custom_list
 
 def cleanForInt(csv, listString):
     finalList = []
@@ -54,4 +60,4 @@ def cleanForInt(csv, listString):
     return pd.DataFrame(finalList, columns=headers)
 
 if __name__ == '__main__':
-	read_csv()
+	read_csv('../CSV/disasters.csv')
