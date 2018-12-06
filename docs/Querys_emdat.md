@@ -1,4 +1,4 @@
-# Querys in emdat.db
+# Queries in emdat.db
 
 ## First search in emdat
 
