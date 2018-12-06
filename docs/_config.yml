@@ -1,6 +1,24 @@
 theme: jekyll-theme-slate
 
-
 description: This is about our project were we are collaborating with the Innovation and Entrepreneurship class
 
 author: Michael Daugbjerg and Phillip Brink
+
+# If you are building a GitHub project page then use these settings:
+url: "http://bi-bees.github.io/natural_disasters/"
+baseurl: "/natural_disasters"
+
+# Of course don't forget to change the username and projectname to YOUR username and project
+
+# Name of website
+title: Natural Disasters
+
+# List of links in the navigation bar
+navbar-links:
+  Contract: "https://bi-bees.github.io/natural_disasters/Contract"
+  Results:
+    - Disaster Tabel: "http://178.128.207.173:5006/main_csv"
+  Resources:
+    - Useful Links: "https://bi-bees.github.io/natural_disasters/Useful%20links"
+    - Queries: "https://bi-bees.github.io/natural_disasters/Querys_emdat"
+  Code: "https://github.com/BI-Bees/natural_disasters"
