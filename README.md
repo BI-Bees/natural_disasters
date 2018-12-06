@@ -10,12 +10,13 @@ This repository will contain the following
   
 ## Pages
 
-[View Contract here](https://github.com/BI-Bees/natural_disasters/blob/master/Contract.md)
+[View Contract here](https://bi-bees.github.io/natural_disasters/Contract)
 
 ### Results
 
 [Disaster Table](http://178.128.207.173:5006/main_csv)
-[asdasd](link)
+
+[Server](http://178.128.207.173:5006/)
 
 ### Useful links
-[Useful Links](https://github.com/BI-Bees/natural_disasters/blob/master/Useful%20links.md)
+[Useful Links](https://bi-bees.github.io/natural_disasters/Useful%20links)
