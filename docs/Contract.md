@@ -27,8 +27,13 @@ In the selectiv Business Intelligence we corporated with the Innovation and Entr
 * Disasters in the US
   
 ### Google Searches
+See all our searches about Natural diasasters [here](https://github.com/BI-Bees/natural_disasters/tree/master/Searches).
 
+You can see the searches we made to help reaching the conclusion of a more specific use case.
 ### Sources to data
+[Sources](https://github.com/BI-Bees/natural_disasters/blob/master/README.md)
+
+You can find the links under "Useful links"
 
 ### Aggrements
 This section is about what was agreed upon to be made and which tasks/assignents who were to do and how to contact each other in case something changed or the task were completed fast than antisipated 
@@ -53,8 +58,11 @@ This section is about what was agreed upon to be made and which tasks/assignents
 #### Tasks
 
 ### Price
+
 | Description               |price in kr|amount|   total |
 |---------------------------|-----------|------|---------|
 |Working hours              |    600    |  60  |  36000  |
 |Sever set-up and mantanince|    3.500  |   1  |   3500  |
 |**Total**                  |           |      |**39500**|
+
+[Return to main page](https://bi-bees.github.io/natural_disasters/)

@@ -1,4 +1,4 @@
-# Querys in emdat.db
+# Queries in emdat.db
 
 ## First search in emdat
 
@@ -46,3 +46,5 @@
 * Disaster type
 
 **DATA = emdat_second_q.csv** 
+
+[Return to main page](https://bi-bees.github.io/natural_disasters/)
