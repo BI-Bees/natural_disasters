@@ -52,3 +52,5 @@ The `-d` mark stands for detach and means it will start in the background, and t
 Double check by running `docker ps`.
 
 From here you can visit <ip>:5001 witch will render the homepage of the application.
+
+[Return to main page](https://bi-bees.github.io/natural_disasters/)
