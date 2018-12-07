@@ -1,4 +1,4 @@
-# Contract Weater Disaster Group
+# Contract Natural Disaster Group
 
 ## Intro
 
@@ -38,8 +38,7 @@ You can find the links under "Useful links"
 ### Aggrements
 This section is about what was agreed upon to be made and which tasks/assignents who were to do and how to contact each other in case something changed or the task were completed fast than antisipated 
 
-#### Task
-##### Developers
+#### Developers
 - Search for data sets on specificed subject
   
 - Create visulization for Business class in form of
@@ -51,10 +50,13 @@ This section is about what was agreed upon to be made and which tasks/assignents
   
 - Set up website with visulazation
 
-##### Business holder
+#### Business holder
 - Find out specific what to search for
 
 #### Tasks
+As developers, our task was to create a represental envioment for others to see.
+We gathered information about natural disasters in general, to learn more about the topic.
+The data should be remodeled to fit our purpose, and we should then document how to make use of our application.
 
 ### Price
 
