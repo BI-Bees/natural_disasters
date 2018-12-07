@@ -42,7 +42,7 @@ This section is about what was agreed upon to be made and which tasks/assignents
 ##### Developers
 - Search for data sets on specificed subject
   
-- Create visulization for Business holde in form of
+- Create visulization for Business class in form of
     
     - Histograms
     - Graphs
