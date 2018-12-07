@@ -14,9 +14,7 @@ This repository will contain the following
 
 ### Results
 
-[Disaster Table](http://178.128.207.173:5006/main_csv)
-
-### Graphs
+[Disaster Table](http://178.128.207.173:5000/main_csv)
 
 [Server](http://178.128.207.173:5001/)
 
