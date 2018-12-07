@@ -14,10 +14,6 @@ This repository will contain the following
 
 ### Results
 
-[Disaster Table](http://178.128.207.173:5006/main_csv)
-
-### Graphs
-
 [User guide](https://bi-bees.github.io/natural_disasters/User_documentation)
 
 [Server](http://178.128.207.173:5001/)
