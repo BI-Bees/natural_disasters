@@ -18,7 +18,7 @@ This repository will contain the following
 
 ### Graphs
 
-[User guide](https://github.com/BI-Bees/natural_disasters/blob/master/docs/User_documentation.md)
+[User guide](https://bi-bees.github.io/natural_disasters/User_documentation)
 
 [Server](http://178.128.207.173:5001/)
 
