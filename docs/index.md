@@ -18,6 +18,8 @@ This repository will contain the following
 
 ### Graphs
 
+[User guide](https://github.com/BI-Bees/natural_disasters/blob/master/docs/User_documentation.md)
+
 [Server](http://178.128.207.173:5001/)
 
 ### Useful links
