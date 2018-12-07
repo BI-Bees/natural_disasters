@@ -20,7 +20,7 @@ The following is our tools used to setup this project:
 
 ### How to reproduce
 
-Note: you might need to use `sudo` infront of your commands you issue.
+Note: you might need to use `sudo` infront of the commands you issue.
 
 First of you need to get `docker` and `docker-compose`.
 
