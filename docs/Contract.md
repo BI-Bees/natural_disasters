@@ -53,7 +53,6 @@ This section is about what was agreed upon to be made and which tasks/assignents
 
 ##### Business holder
 - Find out specific what to search for
-- xxxx
 
 #### Tasks
 
