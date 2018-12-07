@@ -26,4 +26,4 @@ This repository will contain the following
 [Useful Links](https://bi-bees.github.io/natural_disasters/Useful%20links)
 
 ### Technical information
-[Tools and how to reporduce](https://bi-bees.github.io/natural_disasters/User_documentation)
+[Tools and how to reporduce](https://bi-bees.github.io/natural_disasters/Technical_documentation)
