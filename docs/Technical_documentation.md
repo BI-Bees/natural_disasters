@@ -51,6 +51,6 @@ witch will spin up two containers with all the nessesary equipment to run the ap
 The `-d` mark stands for detach and means it will start in the background, and therefore not be interactive.
 Double check by running `docker ps`.
 
-From here you can visit <ip>:5001 witch will render the homepage of the application.
+From here you can visit [ip]:5001 witch will render the homepage of the application.
 
 [Return to main page](https://bi-bees.github.io/natural_disasters/)
