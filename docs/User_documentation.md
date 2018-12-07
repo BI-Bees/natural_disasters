@@ -18,3 +18,5 @@ Here you can hover over the graph to show the number of injured/deaths at the gi
 
 - [Data Set](http://178.128.207.173:5000/main_csv), shows a schema of the data we used. 
 Here you can slide the 'year' bar to narrow down how much you wanna see in the schema.
+
+[Return to main page](https://bi-bees.github.io/natural_disasters/)
