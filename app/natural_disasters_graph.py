@@ -8,9 +8,8 @@ from bokeh.palettes import inferno
 from bokeh.embed import components
 
 def createBar():
-    temp_dict = visual.read_csv('CSV/disasters.csv')
+    temp_dict = visual.read_csv('natural_disasters/CSV/disasters.csv')
     df = pd.DataFrame(temp_dict)
-    #df = pd.read_csv("natural_disasters/CSV/disasters.csv")
     df_sumed = df.groupby(['year']).sum()
 
     result = list(zip(df_sumed.index, df_sumed.occurrence))
