@@ -30,4 +30,5 @@ def createBar():
     p.xgrid.grid_line_color = None
     p.add_layout(label)
     script, div = components(p)
+    print('testing')
     return (script, div)
