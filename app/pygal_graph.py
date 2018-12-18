@@ -10,7 +10,6 @@ def render_chart():
   list_injured = df['Injured'].tolist()
   list_deaths = df['Total_deaths'].tolist()
 
-
   custom_style = Style(
     colors=('#E80080', '#404040', '#9BC850'))
 
@@ -19,5 +18,4 @@ def render_chart():
   b_chart.x_labels = list_year
   b_chart.add("Injured", list_injured)
   b_chart.add("Total deaths", list_deaths)
-  print(b_chart)
   return b_chart

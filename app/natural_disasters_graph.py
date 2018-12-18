@@ -1,5 +1,6 @@
 import math
 import pandas as pd
+import app.visualizer as visual 
 from bokeh.io import show, output_file, curdoc
 from bokeh.models import ColumnDataSource, FactorRange, LabelSet, CustomJS
 from bokeh.models.widgets import RangeSlider, Button, DataTable, TableColumn, NumberFormatter
@@ -10,9 +11,10 @@ from bokeh.layouts import row, widgetbox
 from bokeh.resources import CDN
 from bokeh.embed import components
 
-
 def createBar():
-    df = pd.read_csv("natural_disasters/CSV/disasters.csv")
+    temp_dict = visual.read_csv('natural_disasters/CSV/disasters.csv')
+    df = pd.DataFrame(temp_dict)
+    #df = pd.read_csv("natural_disasters/CSV/disasters.csv")
     df_sumed = df.groupby(['year']).sum()
 
     result = list(zip(df_sumed.index, df_sumed.occurrence))

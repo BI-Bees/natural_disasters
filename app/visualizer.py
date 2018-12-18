@@ -1,11 +1,5 @@
-from flask import Flask
-from flask import request
 import pandas as pd
 import csv
-import json
-import sys
-
-app = Flask(__name__)
 
 #Reading csv file and creates a list of dictionaries.
 def read_csv(custom_csv):
@@ -53,6 +47,3 @@ def cleanForInt(csv, listString):
     headers = headers + listString
 
     return pd.DataFrame(finalList, columns=headers)
-
-if __name__ == '__main__':
-	read_csv('../CSV/disasters.csv')
