@@ -4,7 +4,7 @@ import app.visualizer as visual
 from pygal.style import Style
 
 def render_chart():
-  temp_dict = visual.read_csv('natural_disasters/CSV/disasters.csv')
+  temp_dict = visual.read_csv('CSV/disasters.csv')
   df = pd.DataFrame(temp_dict)
   list_year = df['year'].tolist()
   list_injured = df['Injured'].tolist()
