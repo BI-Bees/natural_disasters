@@ -2,13 +2,9 @@ import math
 import pandas as pd
 import app.visualizer as visual 
 from bokeh.io import show, output_file, curdoc
-from bokeh.models import ColumnDataSource, FactorRange, LabelSet, CustomJS
-from bokeh.models.widgets import RangeSlider, Button, DataTable, TableColumn, NumberFormatter
+from bokeh.models import ColumnDataSource, LabelSet
 from bokeh.plotting import figure
-from bokeh.transform import factor_cmap
-from bokeh.palettes import inferno, Spectral6
-from bokeh.layouts import row, widgetbox
-from bokeh.resources import CDN
+from bokeh.palettes import inferno
 from bokeh.embed import components
 
 def createBar():
