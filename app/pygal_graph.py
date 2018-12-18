@@ -21,4 +21,3 @@ def render_chart():
   b_chart.add("Total deaths", list_deaths)
   print(b_chart)
   return b_chart
-#b_chart.render_in_browser()
