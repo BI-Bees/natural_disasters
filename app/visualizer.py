@@ -7,11 +7,6 @@ import sys
 
 app = Flask(__name__)
 
-@app.route('/', methods=['GET'])
-def visualize():
-	result_list = read_csv()
-	return render_template('html_page.html', result_list=result_list)
-
 #Reading csv file and creates a list of dictionaries.
 def read_csv(custom_csv):
 	disaster_list = []

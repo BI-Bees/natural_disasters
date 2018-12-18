@@ -21,4 +21,4 @@ def pygal_bar_page():
     return render_template("pygal_bar.html", data=bar.render_data_uri())
 
 if __name__ == "__main__":
-    app.run(host='0.0.0.0')
+    app.run(host='0.0.0.0', debug=True)

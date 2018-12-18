@@ -15,7 +15,6 @@ def createBar():
     df = pd.read_csv("natural_disasters/CSV/disasters.csv")
     df_sumed = df.groupby(['year']).sum()
 
-    #output_file("../templates/bar_colors.html")
     result = list(zip(df_sumed.index, df_sumed.occurrence))
 
     years = list([str(val[0]) for val in result])
